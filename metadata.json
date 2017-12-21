@@ -1,6 +1,6 @@
 {
   "name": "nward-efibootmgr",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Nathan Ward",
   "summary": "Manages EFI boot order",
   "license": "Apache-2.0",
