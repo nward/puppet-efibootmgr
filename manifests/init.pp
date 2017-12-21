@@ -1,7 +1,7 @@
 class efibootmgr (
   Array[Hash] $order,
 ) {
-  if ! has_key($facts['efibootmgr']) {
+  if ! has_key($facts, 'efibootmgr') {
     fail ("EFI configuration is not available on this system")
   }
   $order_options = $order.map |$order_option| {
